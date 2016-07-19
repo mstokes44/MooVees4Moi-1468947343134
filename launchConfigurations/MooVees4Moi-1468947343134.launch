@@ -1,0 +1,25 @@
+{
+    "Params": {
+        "DevMode": {
+            "Instrumentation": {
+                "command": "",
+                "env": {
+                    "BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector",
+                    "NODE_ENV": "development"
+                },
+                "memory": "384M"
+            },
+            "Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+        },
+        "Name": "MooVees4Moi",
+        "Target": {
+            "Org": "9c4efa1b-efed-4a51-8ab4-2d82d8de1aff",
+            "Space": "3a8ec460-7664-4318-83e4-7f802e33fd3d",
+            "Url": "https://api.ng.bluemix.net"
+        },
+        "Timeout": 60
+    },
+    "Path": "",
+    "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+    "Type": "Cloud Foundry"
+}
